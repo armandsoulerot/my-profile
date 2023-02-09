@@ -1,0 +1,87 @@
+body{
+	background: #B9F3FC;
+	color: rgb(50, 50, 50);
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+}
+
+h1, h2{
+	font-family: 'Alata', sans-serif;
+}
+
+h1{
+	color: #0081C9;
+	font-size: 34px;
+}
+h2{
+	color: #00337C;
+	font-size: 26px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color: #6C00FF;
+	font-weight: bold;
+}
+a:hover{
+	color: white;
+	background-color: black;
+}
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: ghostwhite;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+	width: 200px;
+
+}
+
+.button{
+	background-color: #00337C;
+	color : skyblue;
+	padding : 15px 20px;
+	border-radius: 4px;
+}
+
+.button :hover {
+	background-color: black;
+	color : white;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+	color: rgb(200, 200, 200);
+}
+
+.list-horizontal i:hover {
+	color: black;
+}
+
+/* Design adjustments with ID*/
+#intro p {
+	margin-bottom: 40px;
+}
